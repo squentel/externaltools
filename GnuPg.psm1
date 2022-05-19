@@ -84,7 +84,7 @@ function Add-Encryption {
 	
 		[Parameter()]
 		[ValidateNotNullOrEmpty()]
-		[string]$GpgPath = 'C:\Program Files (x86)\GNU\GnuPG\gpg2.exe'
+		[string]$GpgPath = 'C:\Program Files (x86)\GnuPG\bin\gpg.exe'
 		
 	)
 	process {
