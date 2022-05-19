@@ -28,7 +28,7 @@ function Install-GnuPg {
 		
 		[Parameter()]
 		[ValidateNotNullOrEmpty()]
-		[string]$DownloadUrl = 'http://files.gpg4win.org/gpg4win-4.0.0.exe'
+		[string]$DownloadUrl = 'http://files.gpg4win.org/gpg4win-3.1.15.exe'
 		
 	)
 	process {
